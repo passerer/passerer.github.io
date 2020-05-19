@@ -1,37 +1,31 @@
-## Welcome to GitHub Pages
+我的[博客](https://blog.csdn.net/qq_43257640) 
 
-You can use the [editor on GitHub](https://github.com/passerer/passerer.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+## 教育经历
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+本科 南京大学 工程管理学院 自动化专业
 
-### Markdown
+## 竞赛经历
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### 第九届江苏省机器人大赛
+使用OpenCV库中的滤波算法实现物体定位,获得**单项冠军**.
+### 2018 中国机器人技能大赛
+获得**单项一等奖**.
+### 第十届届江苏省机器人大赛
+提出应用新框架重构代码,大幅优化目标定位效果.带领队伍取得**单项冠军**.
+### 2019 中国机器人技能大赛
+带领队伍取得**单项冠军**.
+### 2021 robocup中国赛
+受疫情影响,无缘2020robocup中国赛.正积极备战2021robocup中国赛标准平台组.尝试使用深度强化学习为机器人决策提供参考.欢迎对机器人和计算机视觉感兴趣的同学加入我们(联系人工智能学院18级宋磊同学:974534426@qq.com).
 
-```markdown
-Syntax highlighted code block
+## 研究经历
+### 人脸识别
+参与本系“非凸鲁棒稀疏表示人脸识别”创新项目
+### 强化学习
+参与“强化学习控制双足机器人”创新项目
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/passerer/passerer.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## 奖学金
+- 2018 人民奖学金 二等奖
+- 2019 人民奖学金 二等奖
+## 语言/框架
+- 语言: Python C/C++ MATLAB _LATEX_
+- 框架: PyTorch TensorFlow Caffe
