@@ -40,5 +40,8 @@
 - 语言: Python C/C++ MATLAB _LATEX_
 - 框架: PyTorch TensorFlow Caffe
 
-
+#### 正在进行的工作
+- 开发一套用于比赛的图像分类框架
+- 阅读caffe源码
+- 视频理解和视频目标检测
 
