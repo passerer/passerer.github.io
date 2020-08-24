@@ -1,408 +1,179 @@
-<!DOCTYPE html>
-<html lang="zh-cn">
+<!DOCTYPE HTML>
+<html>
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"
-    />
-    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
-    <meta name="format-detection" content="email=no" />
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta name="format-detection" content="telephone=no" />
-    <meta name="renderer" content="webkit">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <meta name="apple-mobile-web-app-title" content="Amaze UI" />
-    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
-    <meta http-equiv="Pragma" content="no-cache" />
-    <meta http-equiv="Expires" content="0" />
-    <title>[简历]张大侠-前端开发工程师/杭州</title>
-    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="assets/css/typo.css">
-    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
-    <link rel="stylesheet" href="assets/css/index.css">
-    <script>
-        function loading() {
-            document.getElementsByClassName('avatar')[0].style.display = 'block';
-            document.getElementsByClassName('loading')[0].style.display = 'none';
-        }
+    <title>resume</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <script type="application/x-javascript">
+    addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+
+    function hideURLbar() { window.scrollTo(0, 1); }
     </script>
+    <link href="https://cdn.bootcss.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel='stylesheet' type='text/css' />
+    <link href='//fonts.googleapis.com/css?family=Ubuntu:300,400,500,700' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
+    <!-- start menu -->
 </head>
 
 <body>
-
-    <header class="header"></header>
-
-    <article class="container">
-        <section class="side" id="side">
-
-            <!-- 左栏固定开关，记得及时删除这段代码 Start-->
-            <label class="switch" style="display: none;" onchange="switchFixed()">
-                <script type="text/javaScript">
-                    function switchFixed(){
-                        var value = document.getElementById('side').style.position === 'fixed' ? 'absolute' : 'fixed';
-                        document.getElementById('side').style.position = value;
-                    }
-                </script>
-                <input id="cb" type="checkbox">
-                <span class="slider round"></span>
-            </label>
-            <style>
-                @media (min-width: 	750px){
-                    .switch{position:relative;display:inline-block!important;width:60px;height:34px;}
-                    .switch input{display:none;}
-                    .slider{position:absolute;cursor:pointer;top:0;left:0;right:0;bottom:0;background-color:#ccc;-webkit-transition:.4s;transition:.4s;}
-                    .slider:before{position:absolute;content:"";height:26px;width:26px;left:4px;bottom:4px;background-color:white;-webkit-transition:.4s;transition:.4s;}
-                    input:checked + .slider{background-color:#1abc9c;}
-                    input:focus + .slider{box-shadow:0 0 1px #1abc9c;}
-                    input:checked + .slider:before{-webkit-transform:translateX(26px);-ms-transform:translateX(26px);transform:translateX(26px);}.slider.round{border-radius:34px;}
-                    .slider.round:before{border-radius:50%;}
-                }
-            </style>
-            <!-- 左侧固定开关，记得及时删除这段代码 End-->
-
-            <!-- 个人肖像 -->
-            <section class="me">
-                <section class="portrait">
-                    <div class="loading">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </div>
-                    <!-- 头像照片 -->
-                    <img class="avatar" src="assets/images/avatar.jpg" onload="loading()">
-                </section>
-
-                <h1 class="name">张大侠</h1>
-                <h4 class="info-job">前端开发工程师 / 杭州</h4>
-
-            </section>
-
-            <!-- 基本信息 -->
-            <section class="profile info-unit">
-                <h2>
-                    <i class="fa fa-user" aria-hidden="true"></i>基本信息</h2>
-                <hr/>
+    <!-- header -->
+    <div class="col-sm-3 col-md-2 sidebar">
+        <div class="sidebar_top">
+            <h1>王老板</h1>
+            <img src="https://blog.wfyvv.com/images/avatar.png" alt="" />
+        </div>
+        <div class="details">
+            <h3>手机</h3>
+            <p>183 8888 8888</p>
+            <h3>邮箱</h3>
+            <p><a href="mailto:wfyv@qq.com">wfyv@qq.com</a></p>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+        <div class="content">
+            <div class="details_header">
                 <ul>
-                    <li>
-                        <label>个人信息</label>
-                        <span>张大侠 / 男 / 24岁</span>
-                    </li>
-                    <li>
-                        <label>英语水平</label>
-                        <span>CET-6</span>
-                    </li>
-                    <li>
-                        <label>计算机水平</label>
-                        <span>软考中级</span>
-                    </li>
+                    <li><a href="//www.wfyvv.com"><span class="glyphicon glyphicon-home" aria-hidden="true"></span>Home</a></li>
+                    <li><a href="/"><span class="glyphicon glyphicon-tasks " aria-hidden="true"></span>Blog</a></li>
+                    <li><a href="javascript:window.print();"><span class="glyphicon glyphicon-print" aria-hidden="true"></span>Print CV</a></li>
+                    <li><a href="mailto:wfyv@qq.com"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>Email me</a></li>
                 </ul>
-            </section>
-
-            <!-- 联系方式 -->
-            <section class="contact info-unit">
-                <h2>
-                    <i class="fa fa-phone" aria-hidden="true"></i>联系方式</h2>
-                <hr/>
-                <ul>
-                    <li>
-                        <label>手机</label>
-                        <a href="tel:15168285219" target="_blank">151-6828-5219</a>
-                    </li>
-                    <li>
-                        <label>邮箱</label>
-                        <a href="mailto:ze.zh@hotmail.com" target="_blank">ze.zh@hotmail.com</a>
-                    </li>
-                    <li>
-                        <label>个人主页</label>
-                        <a href="http://0b11111110.com/" target="_blank">0b11111110.com/</a>
-                    </li>
-                    <li>
-                        <label>Github</label>
-                        <a href="https://github.com/0b11111110" target="_blank">github.com/0b11111110</a>
-                    </li>
-                </ul>
-            </section>
-
-            <!-- 技能点 -->
-            <section class="skill info-unit">
-                <h2>
-                    <i class="fa fa-code" aria-hidden="true"></i>技能点</h2>
-                <hr/>
-                <ul>
-                    <li>
-                        <label>HTML</label>
-                        <progress value="90" max="100"></progress>
-                    </li>
-                    <li>
-                        <label>CSS</label>
-                        <progress value="85" max="100"></progress>
-                    </li>
-                    <li>
-                        <label>JavaScript</label>
-                        <progress value="85" max="100"></progress>
-                    </li>
-                    <li>
-                        <label>React</label>
-                        <progress value="85" max="100"></progress>
-                    </li>
-                    <li>
-                        <label>Node.js</label>
-                        <progress value="70" max="100"></progress>
-                    </li>
-                    <li>
-                        <label>小程序</label>
-                        <progress value="70" max="100"></progress>
-                    </li>
-                </ul>
-            </section>
-
-            <section class="qrcode info-unit">
-                <h2><i class="fa fa-qrcode" aria-hidden="true"></i>二维码</h2>
-                <hr/>
-                <img src="https://github.com/if2er/FeZaoDuKe-Collection/blob/master/ifeees.jpg?raw=true" style="width: 100%;" alt="">
-            </section>
-
-            <!-- 技术栈 -->
-            <!-- <div class="stack info-unit">
-                    <h2><i class="fa fa-code" aria-hidden="true"></i>其他</h2>
-                    <hr/>
-                    <ul>
-                        <li>
-                            <label>前端</label>
-                            <span>React、jQuery、微信小程序、Bootstrap、SASS、LESS</span>
-                        </li>
-                        <li>
-                            <label>后端</label>
-                            <span>Node.js、MySQL、MongoDB、WordPress、ThinkPHP</span>
-                        </li>
-                        <li>
-                            <label>其他</label>
-                            <span>Git、SVN、Markdown</span>
-                        </li>
+            </div>
+            <div class="item">
+                <h3 class="clr clr1">个人信息</h3>
+                <div class="item_detail">
+                    <ul class="person_info">
+                        <li>姓名：王老板</li>
+                        <li>年龄：26</li>
+                        <li>性别：男</li>
+                        <li>民族：汉</li>
+                        <li>学校：合肥工业大学</li>
+                        <li>学历：本科</li>
+                        <li>英语：CET-6</li>
+                        <li>专业：软件工程</li>
+                        <li>手机：18388888888</li>
+                        <li>邮箱：wfyv@qq.com</li>
                     </ul>
-                </div> -->
-        </section>
-
-        <section class="main">
-
-            <!-- 教育经历 -->
-            <section class="edu info-unit">
-                <h2>
-                    <i class="fa fa-graduation-cap" aria-hidden="true"></i>教育经历</h2>
-                <hr/>
-                <ul>
-                    <li>
-                        <h3>
-                            <span>XXXX大学 - XXX专业（硕士）</span>
-                            <time>201X.9-201X.7</time>
-                        </h3>
-                        <p>专业排名
-                            <mark>X/XX</mark>，期间发表国际会议英文摘要X篇，国内核心期刊文章X篇（其中第一作者X篇），获XXX，XXX2次，XXX2次。(此处根据自身情况填写，可以突出自己的亮点，或者跟求职目标相关的内容)</p>
-                    </li>
-                    <li>
-                        <h3>
-                            <span>XXXX大学 - XXX专业（本科）</span>
-                            <time>201X.9-201X.7</time>
-                        </h3>
-                        <p>专业排名
-                            <mark>X/XX</mark>，期间发表国内核心期刊文章X篇，三等奖学金X次。</p>
-                    </li>
-                </ul>
-            </section>
-
-            <!-- 工作经历 -->
-            <section class="work info-unit">
-                <h2>
-                    <i class="fa fa-shopping-bag" aria-hidden="true"></i>工作经历</h2>
-                <hr/>
-                <ul>
-                    <li>
-                        <h3>
-                            <span>[经历1]XX公司－前端开发工程师（实习）</span>
-                            <time>2016.X 至 2017.X</time>
-                        </h3>
-                        <ul class="info-content">
-                            <li>深度参与XX项目迭代XX的前端开发工作，独立承担并完成XX、XX、XXXX等功能点的开发，主要维护并修复XX、XX、XX等功能点bug若干。项目采用技术栈
-                                <mark>React+React Router+Node.js+SASS</mark>，实现
-                                <mark>前后端完全分离</mark>。</li>
-                            <li>配合UI和后端，根据产品需求提供H5页面嵌入到后台模板，要求
-                                <mark>移动端显示正常</mark>。</li>
-                            <li>主要参与XXXXXXX的静态页面开发工作，要求
-                                <mark>在支付宝环境下完全兼容</mark>。</li>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+            <div class="item">
+                <h3 class="clr clr2">工作经历</h3>
+                <div class="item_detail">
+                    <h4>山东蓝翔汽车股份有限公司<span>2015.10 - 至今</span></h4>
+                    <h6>java工程师</h6>
+                    <p>1、参与需求分析、数据库设计、系统优化等工作</p>
+                    <p>2、解决开发过程中的技术问题</p>
+                </div>
+                <div class="item_detail">
+                    <h4>山东蓝翔汽车股份有限公司<span>2014.10-2015.10 </span></h4>
+                    <h6>java工程师</h6>
+                    <p>1、参与需求分析、数据库设计、系统优化等工作</p>
+                    <p>2、解决开发过程中的技术问题</p>
+                </div>
+            </div>
+            <div class="item">
+                <h3 class="clr clr3">专业技能</h3>
+                <div class="item_detail">
+                    <div class="skill">
+                        <ul>
+                            <li>java基础扎实，有良好的编程思想和编码习惯。</li>
+                            <li>熟悉单例模式、工厂模式、适配器模式、代理模式、责任链模式。</li>
+                            <li>掌握SpringMVC、Spring、Mybatis等企业主流开发框架，研究Jfinal、latke、mybatis等开源项目源码。</li>
+                            <li>熟练应用MySQL、oracle等关系型数据库及redis非关系型数据库等技术。</li>
+                            <li>熟悉Javascript、jquery、ajax等前台技术。</li>
+                            <li>熟悉SVN、GIT、MAVEN工具，能够使用SVN和MAVEN构建项目。</li>
+                            <li>熟悉Linux，SHELL编程，服务器环境搭建及项目部署。</li>
                         </ul>
-                    </li>
-                    <li>
-                        <h3>
-                            <span>[经历2]XX－前端开发工程师（实习）</span>
-                            <time>20XX.10-20XX.7</time>
-                        </h3>
-                        <ul class="info-content">
-                            <li>深度参与公司主线产品「XXXX」的前端开发工作，完成帖子快捷回复、
-                                <mark>全站图片懒加载</mark>、活动banner、帖子管理（使用Yii框架）等功能。项目采用技术栈phpWind+NAMP。
-                                <a href="http://itsay.tech/162/" target="_blank">
-                                    <i class="fa fa-link" aria-hidden="true"></i>博客文章</a>。</li>
-                            <li>主要参与公司产品「XXXX」的前端开发工作，实现接入微博、微信、QQ等
-                                <mark>第三方账号登录</mark>等功能。项目采用技术栈WordPress+NAMP。</li>
-                            <li>活动页面的开发（七夕活动、抽奖活动以及承接外包页面）。</li>
-                            <li>论坛
-                                <mark>图片增量备份</mark>（CentOS+vsftpd+crontab）
-                                <a href="#" target="_blank">
-                                    <i class="fa fa-link" aria-hidden="true"></i>博客文章</a>。</li>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <h3 class="clr clr4">项目经验</h3>
+                <div class="item_detail">
+                    <h5>商业银行立体教学平台</h5>
+                    <dl class="project">
+                        <dt>开发环境</dt>
+                        <dd>
+                            <span class="label label-default">IntelliJ IDEA</span>
+                            <span class="label label-default">tomcat7</span>
+                            <span class="label label-default">svn</span>
+                        </dd>
+                        <div class="clearfix"></div>
+                        <dt>技术架构</dt>
+                        <dd>
+                            <span class="label label-default">freemarker</span>
+                            <span class="label label-default">springMVC</span>
+                            <span class="label label-default">mybatis</span>
+                            <span class="label label-default">ehcache</span>
+                            <span class="label label-default">oracle</span>
+                        </dd>
+                        <div class="clearfix"></div>
+                        <dt>开发时间</dt>
+                        <dd>2016.3 – 2017.11</dd>
+                        <dt>项目描述</dt>
+                        <dd>
+                            <p>商业银行立体教学平台（多维度覆盖教学链和业务流程的综合教学平台）是一款贴合商业银行业务，以项目实训为核心，集合丰富多元的教学资源，串联教学链中教学引导、技能提升和考核认证三大核心模块，通过资源整合和架构优化，实现一站式便捷化模拟教学的实训教学产品。</p>
+                        </dd>
+                        <dt>责任描述</dt>
+                        <dd>1. 参与系统设计、数据库设计、核心功能模块开发、性能优化、浏览器兼容性处理等工作</dd>
+                        <dd>2. 解决开发过程中的技术问题</dd>
+                    </dl>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="item_detail">
+                    <h5>B2C移动项目</h5>
+                    <dl class="project">
+                        <dt>开发环境</dt>
+                        <dd>
+                            <span class="label label-default">MyEclipse</span>
+                            <span class="label label-default">tomcat7</span>
+                            <span class="label label-default">Maven</span>
+                            <span class="label label-default">svn</span>
+                        </dd>
+                        <div class="clearfix"></div>
+                        <dt>技术架构</dt>
+                        <dd>
+                            <span class="label label-default">struts2</span>
+                            <span class="label label-default">spring</span>
+                            <span class="label label-default">hibernate</span>
+                            <span class="label label-default">oracle</span>
+                            <span class="label label-default">springMVC</span>
+                        </dd>
+                        <div class="clearfix"></div>
+                        <dt>开发时间</dt>
+                        <dd>2014.09 – 2015.10</dd>
+                        <dt>项目描述</dt>
+                        <dd>
+                            <p>该项目分为商城前台和后台，前台主于面向客户，后台主要用于管理员进行统一管理。商城前台分为web版和wap版。后台分为如下几个模块：系统配置，首页配置，商家管理，订单管理，银行购机，支付管理等。</p>
+                        </dd>
+                        <dt>责任描述</dt>
+                        <dd>1. 参与需求分析评审工作</dd>
+                        <dd>2. 统计分析模块开发及单元测试，集成测试</dd>
+                    </dl>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+            <div class="item">
+                <h3 class="clr clr5">自我评价</h3>
+                <div class="item_detail">
+                    <div class="skill">
+                        <ul>
+                            <li>工作态度认真严谨，踏实耐心</li>
+                            <li>具有较高的团队合作精神，编码习惯良好</li>
+                            <li>逻辑思维能力强，思路清晰，学习能力强</li>
                         </ul>
-                    </li>
-                </ul>
-            </section>
-
-            <!-- 项目经验 -->
-            <section class="project info-unit">
-                <h2>
-                    <i class="fa fa-terminal" aria-hidden="true"></i>个人项目</h2>
-                <hr/>
-                <ul>
-                    <li>
-                        <h3>
-                            <span>[项目1]医学科学数据管理与共享平台</span>
-                            <span class="link">
-                                <a href="#" target="_blank">Demo</a>
-                            </span>
-                            <time>201X.X-201X.X</time>
-                        </h3>
-                        <ul class="info-content">
-                            <li>技术栈：ThinkPHP+MongoDB+Axure</li>
-                            <li>
-                                <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
-                                [目标]实现多类型多来源医学科学数据的提交、管理和共享
-                                <br/>
-                                <i class="fa fa-users" aria-hidden="true"></i>
-                                [团队]同 2 位同专业同学一起
-                                <br/>
-                                <i class="fa fa-bars" aria-hidden="true"></i>
-                                [贡献]完成从
-                                <mark>“调研-设计-实现-文档”</mark>等工作，主要负责系统原型、功能框架及数据提交流程、元数据及源数据的管理与共享方案的设计以及系统开发等工作
-                                <br/>
-                                <i class="fa fa-thumbs-o-up" aria-hidden="true"></i>
-                                [效果]作品最终取得第三届共享杯国家级竞赛“一等奖” （2/2000）</li>
-                        </ul>
-                    </li>
-                    <li>
-                        <h3>
-                            <span>[项目2]肿瘤流行病数据可视化</span>
-                            <span class="link">
-                                <a href="#" target="_blank">Demo</a>
-                            </span>
-                            <time>201X.X-201X.X</time>
-                        </h3>
-                        <ul class="info-content">
-                            <li>技术栈：HTML 5+D3.js+ECharts+MySQL</li>
-                            <li>
-                                <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
-                                [目标]实现常见肿瘤流行病数据多维度可视化展示、数据透视及分析
-                                <br/>
-                                <i class="fa fa-users" aria-hidden="true"></i>
-                                [团队]与 1 位同学
-                                <br/>
-                                <i class="fa fa-bars" aria-hidden="true"></i>
-                                [贡献]分析项目需求，清洗并整理相关数据(扩展第三方知识组织系统和 Google trends 数据)，并用
-                                <mark>D3.js</mark> 和
-                                <mark>ECharts</mark> 进行图形化展示以及实现简易自动分析 功能
-                                <br/>
-                                <i class="fa fa-thumbs-o-up" aria-hidden="true"></i>
-                                [效果]作品取得第二届共享杯国家级竞赛“特等奖”(1/1500)
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <h3>
-                            <span>[项目3]肿瘤流行病数据可视化</span>
-                            <span class="link">
-                                <a href="#" target="_blank">Demo</a>
-                            </span>
-                            <time>201X.X-201X.X</time>
-                        </h3>
-                        <ul class="info-content">
-                            <li>技术栈：HTML 5+D3.js+ECharts+MySQL</li>
-                            <li>
-                                <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
-                                [目标]实现常见肿瘤流行病数据多维度可视化展示、数据透视及分析
-                                <br/>
-                                <i class="fa fa-users" aria-hidden="true"></i>
-                                [团队]与 1 位同学
-                                <br/>
-                                <i class="fa fa-bars" aria-hidden="true"></i>
-                                [贡献]分析项目需求，清洗并整理相关数据(扩展第三方知识组织系统和 Google trends 数据)，并用
-                                <mark>D3.js</mark> 和
-                                <mark>ECharts</mark> 进行图形化展示以及实现简易自动分析功能
-                                <br/>
-                                <i class="fa fa-thumbs-o-up" aria-hidden="true"></i>
-                                [效果]作品取得第二届共享杯国家级竞赛“特等奖”(1/1500)
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <h3>
-                            <span>[项目4]肿瘤流行病数据可视化</span>
-                            <span class="link">
-                                <a href="#" target="_blank">Demo</a>
-                            </span>
-                            <time>201X.X-201X.X</time>
-                        </h3>
-                        <ul class="info-content">
-                            <li>技术栈：HTML 5+D3.js+ECharts+MySQL</li>
-                            <li>
-                                <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
-                                [目标]实现常见肿瘤流行病数据多维度可视化展示、数据透视及分析
-                                <br/>
-                                <i class="fa fa-users" aria-hidden="true"></i>
-                                [团队]与 1 位
-                                <br/>
-                                <i class="fa fa-bars" aria-hidden="true"></i>
-                                [贡献]分析项目需求，清洗并整理相关数据(扩展第三方知识组织系统和 Google trends 数据)，并用
-                                <mark>D3.js</mark> 和
-                                <mark>ECharts</mark> 进行图形化展示以及实现简易自动分析 功能
-                                <br/>
-                                <i class="fa fa-thumbs-o-up" aria-hidden="true"></i>
-                                [效果]作品取得第二届共享杯国家级竞赛“特等奖”(1/1500)
-                            </li>
-                        </ul>
-                    </li>
-
-                </ul>
-            </section>
-
-            <!-- 自我评价 -->
-            <section class="work info-unit">
-                <h2>
-                    <i class="fa fa-pencil" aria-hidden="true"></i>自我评价/期望</h2>
-                <hr/>
-                <p>[此处如果有一些能够量化的、且比较个性的指标会有加分，比如喜爱跑步坚持夜跑200小时或者200km等]
-                    <span class="mark-txt">“多静多思考，反省不张扬”</span>是我给自己总结的“十字箴言”，鞭策自己做人既不能以己度人，也不以人观己，要脚踏实地做事，坚持自己的梦想和本心。</p>
-            </section>
-        </section>
-    </article>
-
-
-
-    <footer class="footer">
-        <p>© 2017 张大侠.文档最后更新时间为
-            <time>2018年06月20日</time>.</p>
-    </footer>
-
-    <!-- 侧栏 -->
-    <aside>
-        <ul>
-            <li>
-                <a href="https://gitee.com/itsay/resume" target="_blank">源代码</a>
-            </li>
-            <li>
-                <a href="http://if2er.com/" target="_blank">Blog</a>
-            </li>
-        </ul>
-    </aside>
-
-    <script src="./assets/js/index.js"></script>
+                    </div>
+                </div>
+            </div>
+            <div class="copywrite">
+                <p>© 2017 Mr.Wang</p>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
