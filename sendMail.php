@@ -1,16 +1,5 @@
 <?php
 
-/**
- * ===============================================
- * Created by ZHIHUA·WEI.
- * Author: ZHIHUA·WEI <zhihua_wei@foxmail.com>
- * Date: 2017/12/25 0003
- * Time: Pm 15:03
- * Project: ZHIHUA.WEI Resume
- * Version: 1.0.0
- * Power: Send Email
- * ===============================================
- */
 
 //判断邮箱、姓名和信息内容不能为空
 if (($_POST['email'] == "") || ($_POST['name'] == "") || ($_POST['message'] == "")) {
